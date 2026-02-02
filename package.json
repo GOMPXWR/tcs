@@ -1,19 +1,9 @@
-{
-  "name": "tcs-mod-bot",
-  "version": "8.0.4",
-  "type": "module",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "dependencies": {
-    "axios": "^1.13.2",
-    "discord.js": "^14.25.1",
-    "dotenv": "^16.6.1",
-    "pg": "^8.16.3",
-    "translate-google": "^1.5.0"
-  },
-  "engines": {
-    "node": "18.x"
-  }
-}
+{ "name": "TCS_Bot", 
+  "version": "2.3.0",
+  "type": "module", 
+  "main": "index.js", 
+  "scripts": { "start": "node index.js" }, 
+  "dependencies": { "axios": "^1.13.2", "discord.js": 
+    "^14.25.1", "dotenv": "^16.6.1", "pg": "^8.16.3", 
+    "translate-google": "^1.5.0" }, 
+  "engines": { "node": "18.x" } }
